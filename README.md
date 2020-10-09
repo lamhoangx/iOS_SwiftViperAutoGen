@@ -4,7 +4,7 @@ The template support auto generates all files that you need to create a new modu
 # VIPER 
 I believe that when you're reaching this repo, you're cleared what is VIPER and why is VIPER.
 <br>
-[<img src="img/viper_diagram.png" width="800"/>](/img/viper_diagram.png)
+[<img src="img/viper_diagram.png" width="800"/>]()
 
 # Install
 ```shell
@@ -16,23 +16,23 @@ Or manually, you can to go to `/Applications/Xcode.app/Contents/Developer/Librar
 
 # Usage
 ## Overview
-[<img src="img/overview.png" width="800"/>](/img/CreateSwiftVIPERFiles.png)
+[<img src="img/overview.png" width="800"/>]()
 <br>
 ## Create
 Create new file and choice `Swift VIPER Files` 
 <br>
-[<img src="img/CreateSwiftVIPERFiles.png" width="500"/>](/img/CreateSwiftVIPERFiles.png)
+[<img src="img/CreateSwiftVIPERFiles.png" width="500"/>]()
 <br>
 ## Result
 On my example, I'm used module name is `Module`.<br>
 <br>
-[<img src="img/CreatedSwiftVIPERFiles.png" width="500"/>](/img/CreatedSwiftVIPERFiles.png)
+[<img src="img/CreatedSwiftVIPERFiles.png" width="500"/>]()
 <br>
 Overview files structure<br>
-[<img src="img/FilesStructure.png" max-height="100"/>](/img/FilesStructure.png)
+[<img src="img/FilesStructure.png" max-height="100"/>]()
 <br>
 Let see function build module to use<br>
-[<img src="img/BuildModule.png" width="500"/>](/img/BuildModule.png)
+[<img src="img/BuildModule.png" width="500"/>]()
 
 
 # References
