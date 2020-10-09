@@ -19,7 +19,7 @@ Create new file and choice `Swift VIPER Files`
 <br>
 [<img src="img/CreateSwiftVIPERFiles.png" width="500"/>](/img/CreateSwiftVIPERFiles.png)
 <br>
-On my example, I'm used module name is `ViperArchAutoGen`.<br>
+On my example, I'm used module name is `Module`.<br>
 And result
 <br>
 [<img src="img/CreatedSwiftVIPERFiles.png" width="500"/>](/img/CreatedSwiftVIPERFiles.png)
