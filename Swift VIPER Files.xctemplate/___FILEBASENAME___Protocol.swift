@@ -20,14 +20,17 @@ protocol ___VARIABLE_ModuleName___RouterProtocol: class {
 protocol ___VARIABLE_ModuleName___ViewProtocol: class {
     var presenter: ___VARIABLE_ModuleName___PresenterProtocol? { get set }
 
-    // func for presenter -> view
-    
+}
+// Extends by view to receive notifies from presenter
+protocol ___VARIABLE_ModuleName___PresenterDelegate: class {
+    //func for presenter -> view
+    func presenterDidLoad()
 }
 
 // MARK: Presenter
 protocol ___VARIABLE_ModuleName___PresenterProtocol: class {
     var router: ___VARIABLE_ModuleName___RouterProtocol? { get set }
-    var view: ___VARIABLE_ModuleName___ViewProtocol? { get set }
+    var view: (___VARIABLE_ModuleName___ViewProtocol & ___VARIABLE_ModuleName___PresenterDelegate)? { get set }
     var interactor: ___VARIABLE_ModuleName___InteractorProtocol? { get set }
 
     // func for presenter -> interactor

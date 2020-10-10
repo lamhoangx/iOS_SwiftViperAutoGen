@@ -12,7 +12,7 @@ class ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___RouterProtocol {
 
     class func build___VARIABLE_ModuleName___View() -> UIViewController? {
         let navController = get___VARIABLE_ModuleName___View()
-        if let view = navController as? ___VARIABLE_ModuleName___ViewProtocol {
+        if let view = navController as? (___VARIABLE_ModuleName___ViewProtocol & ___VARIABLE_ModuleName___PresenterDelegate) {
             let presenter = ___VARIABLE_ModuleName___Presenter()
             let interactor = ___VARIABLE_ModuleName___Interactor()
             let router = ___VARIABLE_ModuleName___Router()
@@ -35,23 +35,10 @@ class ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___RouterProtocol {
         return nil
     }
 
-    static func get___VARIABLE_ModuleName___View() -> UIViewController? {
+    static private func get___VARIABLE_ModuleName___View() -> UIViewController? {
         var view: UIViewController?
         // Change $view if necessary
-        view = get___VARIABLE_ModuleName___ViewFromStoryboard()
+        view = ___VARIABLE_ModuleName___View()
         return view
     }
-    
-    static func get___VARIABLE_ModuleName___ViewFromStoryboard() -> UIViewController {
-        return storyboard.instantiateViewController(withIdentifier: viewIdentifier)
-    }
-
-    static var storyboard: UIStoryboard {
-        let storyboardName = <#storyboard resource file name#>
-        return UIStoryboard(name: storyboardName, bundle: Bundle.main)
-    }
-    static var viewIdentifier: String {
-        return <#view controller identify#>
-    }
-    
 }

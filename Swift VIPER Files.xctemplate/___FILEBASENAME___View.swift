@@ -16,5 +16,12 @@ class ___VARIABLE_ModuleName___View: UIViewController, ___VARIABLE_ModuleName___
         super.viewDidLoad()
         presenter?.viewDidLoad()
     }
+}
+
+// MARK: Presenter -> View
+extension ___VARIABLE_ModuleName___View: ___VARIABLE_ModuleName___PresenterDelegate {
+    func presenterDidLoad() {
+
+    }
     
 }

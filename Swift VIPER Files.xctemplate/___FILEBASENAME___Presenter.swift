@@ -9,11 +9,16 @@ import Foundation
 
 class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterProtocol {
     
-    weak var view: ___VARIABLE_ModuleName___ViewProtocol?
+    weak var view: (___VARIABLE_ModuleName___ViewProtocol & ___VARIABLE_ModuleName___PresenterDelegate)?
     var router: ___VARIABLE_ModuleName___RouterProtocol?
     var interactor: ___VARIABLE_ModuleName___InteractorProtocol?
         
-    func viewDidLoad() {}
+    func viewDidLoad() {
+        // Presenter do something 
+
+        // Done
+        view?.presenterDidLoad()
+    }
 }
 
 // MARK: Interactor -> Presenter
