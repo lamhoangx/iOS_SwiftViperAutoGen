@@ -33,7 +33,7 @@ protocol ___VARIABLE_ModuleName___PresenterProtocol: class {
     var view: (___VARIABLE_ModuleName___ViewProtocol & ___VARIABLE_ModuleName___PresenterDelegate)? { get set }
     var interactor: ___VARIABLE_ModuleName___InteractorProtocol? { get set }
 
-    // func for presenter -> interactor
+    // func for view -> presenter
     func viewDidLoad()
 
 }
