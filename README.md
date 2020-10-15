@@ -42,7 +42,9 @@ Let see function build module to use<br>
 
 
 # Example
-Open an [Arch_VIPER_MVVM](https://github.com/lamhoangx/Arch_VIPER_MVVM.git)
+Project/Sample using this template.<br>
+[Instagram Skeleton UI](https://github.com/lamhoangx/iOS-VIPER-Instagram-Skeleton.git)<br>
+[Arch_VIPER_MVVM](https://github.com/lamhoangx/Arch_VIPER_MVVM.git)
 
 #
 Happy coding!
